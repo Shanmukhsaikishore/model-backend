@@ -1,0 +1,9 @@
+### Send audio file to the prediction endpoint
+POST http://localhost:4000/predict
+Content-Type: application/json
+
+{
+  "path": "C:/Users/Lenovo/Downloads/biden-original.wav/biden-original.wav"
+}
+
+
